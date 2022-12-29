@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Spotify</title>
 </head>
 <body>
     <header class="header">
-        <img class="header-image" src="images/logo.png" alt="Spotify logo">
-        <nav>
+        <nav class="header-menu">
+            <img class="header-image" src="images/logo.png" alt="Spotify logo" class="logo">
             <a class="header-menu-item" href="#">Premium</a>
             <a class="header-menu-item" href="#">Help</a>
             <a class="header-menu-item" href="#">Download</a>
@@ -18,36 +20,40 @@
         </nav>
     </header>
     <main class="content">
-        <h1 class="content-title">Music for everyone.</h1>
-        <p class="content-paragraph">Millions of music to choose from and no credit card required</p>
-        <button class="content-button">Get Spotify free</button>
+        <div>
+            <h1 class="title-content">Music for everyone.</h1>
+            <p class="paragraph-content">Millions of music to choose from and no credit card required</p>
+            <button class="button-content">Get Spotify free</button>
+        </div>
     </main>
     <footer>
-        <img src="" alt="Spotify logo">
         <div>
-            <h3>Company</h3>
-            <p>About</p>
-            <p>Job</p>
-            <p>For the record</p>
-        </div>
-        <div>
-            <h3>Announcement</h3>
-            <p>For Artists</p>
-            <p>Developers</p>
-            <p>Brands</p>
-            <p>Investors</p>
-            <p>Providers</p>
-        </div>
-        <div>
-            <h3>Useful links</h3>
-            <p>Help</p>
-            <p>Web Player</p>
-            <p>Free mobile app</p>
-        </div>
-        <div>
-            <img src="" alt="Instagram logo">
-            <img src="" alt="Twitter logo">
-            <img src="" alt="Facebook logo">
+            <img src="images/logo.png" alt="Spotify logo" class="logo">
+            <div class="footer-menu">
+                <h3>Company</h3>
+                <p class="footer-menu-item">About</p>
+                <p class="footer-menu-item">Job</p>
+                <p class="footer-menu-item">For the record</p>
+            </div>
+            <div>
+                <h3>Announcement</h3>
+                <p class="footer-menu-item">For Artists</p>
+                <p class="footer-menu-item">Developers</p>
+                <p class="footer-menu-item">Brands</p>
+                <p class="footer-menu-item">Investors</p>
+                <p class="footer-menu-item">Providers</p>
+            </div>
+            <div>
+                <h3>Useful links</h3>
+                <p class="footer-menu-item">Help</p>
+                <p class="footer-menu-item">Web Player</p>
+                <p class="footer-menu-item">Free mobile app</p>
+            </div>
+            <div>
+                <img src="" alt="Instagram logo">
+                <img src="" alt="Twitter logo">
+                <img src="" alt="Facebook logo">
+            </div>
         </div>
     </footer>
 </body>
