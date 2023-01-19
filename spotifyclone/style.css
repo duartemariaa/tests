@@ -6,26 +6,27 @@
     text-decoration: none;
 }
 
-.header{
-    background-color: rgb(0, 0, 0, 0.6);
+header{
     display: flex;
-    justify-content: center;
     padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0, 0.6);   
 }
 
-.header-image{
+.logo{
     height: 40px;
     width: auto;
 }
 
-.header-menu{
+.menu-header{
     display: flex;
-    width: 60%;
-    justify-content: space-between;
+    align-items: center;
+    gap: .8rem;
 }
 
 .header-menu-item{
     color: #fff2ef;
-    font-weight: 400;
+    text-decoration: none;
     font-family: 'Roboto', sans-serif;
 }
