@@ -6,12 +6,18 @@
     text-decoration: none;
 }
 
+body {
+    font-size: 100%;
+}
+
 header{
     display: flex;
-    padding: 20px;
+    padding: 15px;
     align-items: center;
-    justify-content: space-between;
-    background-color: rgb(0, 0, 0, 0.6);   
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
 }
 
 .logo{
@@ -29,4 +35,42 @@ header{
     color: #fff2ef;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: url("images/showcase.webp") center center/cover;
+    background-blend-mode: color;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h1 {
+    font-size: 5rem;
+}
+
+main p {
+    margin: 15px 0;
+    font-size: 1.1rem;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1db954;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #1ed760;
 }
