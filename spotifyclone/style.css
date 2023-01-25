@@ -74,3 +74,28 @@ button:hover {
     cursor: pointer;
     background-color: #1ed760;
 }
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.container-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.info-footer {
+    display: flex;
+
+}
+
+.brasil-flag {
+    width: 20px;
+}
